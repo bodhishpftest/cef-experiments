@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "name": "test-submission",
+  "scripts": {
+    "test": "jest --json --outputFile=report.json"
+  },
+  "dependencies": {
+    "download": "^8.0.0",
+    "jest": "^26.6.3",
+    "node-fetch": "^2.6.1",
+    "shelljs": "^0.8.4"
+  }
+}
