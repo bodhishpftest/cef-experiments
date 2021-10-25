@@ -25,8 +25,8 @@ const readFile = async (filePath) => {
 };
 
 const execute = async (token, endpoint) => {
-  const result = await readFile("/report.json");
-
+  const result = await readFile("report.json");
+  console.log(result);
   let response = {
     results: result,
     token: token,
